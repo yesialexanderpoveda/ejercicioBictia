@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    color: rgb(172, 41, 41);  
+    
+}
+.grid{
+display: grid;
+grid-template-rows: auto, auto;
+}
+.uno{
+    display: flex;
+  
+    color: rgb(172, 41, 41);   
+    
+}
+ul{
+    padding: 40px;
+    
+}
+li{
+display: inline;
+justify-content: center;
+border-spacing: 5px;
+
+}
+h1, a{  
+    color: rgb(172, 41, 41);   
+    font-size: 1.5rem;
+    padding: 20px;
+    text-decoration: none;
+
+}
+label:hover, a:hover{
+color: rgb(231, 201, 64);
+
+}
+
+form{
+display: flex;
+flex-direction: column;
+width: 300px;
+padding: 10px;
+
+
+}
+img{
+    width: 55%;
+    padding: 20px;
+    border-radius: 40px;
+}
+.border{
+
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
+
+}
+
+.dos{
+display: grid;
+grid-template-columns: auto 40%;
+background-color: rgb(238, 238, 135);
+border-radius: 20px; 
+}
+.for{
+    position: relative;
+top: 50px;
+}

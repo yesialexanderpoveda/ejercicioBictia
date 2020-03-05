@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <style>
+        .contenedor{
+  display: flex;
+  flex-direction: row;
+
+        }
+        form{
+       display: flex;
+       flex-direction: column;
+
+        }
+       .formulario{
+           display: flex;
+           flex-direction: column;
+
+           width: 400px;
+       }
+    </style>
+</head>
+<body>
+    <h1>Su perfil</h1>
+    <div class="contenedor">
+    <div>
+    <img src="/fotodelman.png" alt="" width="500px" height="460px">
+</div>
+<div class="formulario">
+<p>Desarrollador web con conocimiento en diversas tecnologías y metodologías para la implementación de software y 
+    el funcionamiento scrum para el buen trabajo en equipo </p>
+    </div>
+    <div class="formulario">
+    <h3>Contactanos</h3>
+<form method="GET" action="/formulario/?">
+<label for="nombre"  name="nombre">Nombre</label>
+<input id="nombre" type="text" name="nombre"/>
+<label for="apellido">Apellido</label>
+<input id="apellido" type="text"  name="apellido"/><br>
+<label for="mensaje"></label>
+<textarea name="mensaje" id="mensaje" ></textarea>
+ <button> Enviar </button>
+</form>
+</div>
+</div>
+</body>
+</html>
